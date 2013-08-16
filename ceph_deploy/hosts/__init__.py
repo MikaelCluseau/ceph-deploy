@@ -6,7 +6,7 @@ on the type of distribution/version we are dealing with.
 """
 import logging
 from ceph_deploy import exc, lsb
-from ceph_deploy.hosts import debian, centos, fedora, suse, remotes
+from ceph_deploy.hosts import debian, centos, fedora, suse, gentoo, remotes
 from ceph_deploy.connection import get_connection
 
 logger = logging.getLogger()
