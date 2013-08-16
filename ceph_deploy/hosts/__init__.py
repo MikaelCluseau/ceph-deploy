@@ -62,6 +62,7 @@ def _get_distro(distro, fallback=None):
         'redhat': centos,
         'fedora': fedora,
         'suse': suse,
+        'gentoo': gentoo,
         }
     try:
         return distributions[distro]
